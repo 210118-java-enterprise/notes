@@ -163,53 +163,53 @@ For more notes on Webpack: [More information](https://github.com/wsingleton/1904
 
 # Angular Version History
 
-* AngularJS
+* AngularJS *(still an active, yet separate, project)*
     * introduced in 2010
     * JS framework for building client applications
     * still activately maintained by the AngularJS team at Google 
 
-* Angular 2
+* Angular 2 *(no longer supported)*
     * introduced in September 2016
     * written in TS
 
-* Angular 4
+* Angular 4 *(no longer supported)*
     * introduced in March 2017
-    * new features (not all inclusive):
+    * new features (not all inclusive)
         * changes to NG Routing
         * support for animations (without writing functions)
         * changes and additions to built-in directives
         * Angular Universal (running nG apps outside of the browser and on a web server)
 
 
-* Angular 5
+* Angular 5 *(no longer supported)*
     * introduced in November 2017
-    * new features (not all inclusive):
+    * new features (not all inclusive - see [this](https://blog.angular.io/version-5-0-0-of-angular-now-available-37e414935ced) for more)
         * HttpClient (officially replaces the deprecated Http)
         * Compiler and BuildOptimizer improvements
         * new Router lifecycle events [What's that?](https://angular.io/guide/router#router-events)
 
 
-* Angular 6
+* Angular 6 *(no longer supported)*
     * introduced in April 2018
     * still written in TS
-    * new features (not all inclusive):
+    * new features (not all inclusive - see [this](https://blog.angular.io/version-6-of-angular-now-available-cc56b0efa7a4) for more)
         * Webpack v4
         * support for RxJS 6 library
         * new nG CLI commands (`ng add`, `ng update`, etc.)
         * tree-shakeable services
 
-* Angular 7
+* Angular 7 *(no longer supported)*
     * introduced in October 2018
-    * new features (not all inclusive):
+    * new features (not all inclusive - see [this](https://blog.angular.io/version-7-of-angular-cli-prompts-virtual-scroll-drag-and-drop-and-more-c594e22e7b8c) for more)
         * improvements to Angular Material & CDK [What's that?](https://material.angular.io/cdk/categories)
         * support for Typescript 3.1
         * support for RxJS 6.3, 
         * support for Node 10 (still supporting Node 8).
 
-* Angular 8
+* Angular 8 *(no longer supported)*
     * Introduced in May 2019
     * Requires Node 10
-    * New features (not all inclusive):
+    * New features (not all inclusive - see [this](https://blog.angular.io/version-8-of-angular-smaller-bundles-cli-apis-and-alignment-with-the-ecosystem-af0261112a27) for more)
         * Differential Loading [What's that?](https://dev.to/lacolaco/differential-loading-a-new-feature-of-angular-cli-v8-4jl)
         * Dynamic imports for lazy routes [What's that?](https://alligator.io/angular/lazy-loading/)
         * CLI workflow improvements
@@ -217,19 +217,27 @@ For more notes on Webpack: [More information](https://github.com/wsingleton/1904
 
 * Angular 9
     * Introduced in February 2020
-    * new features (not all inclusive)
+    * new features (not all inclusive - see [this](https://blog.angular.io/version-9-of-angular-now-available-project-ivy-has-arrived-23c97b63cfa3) for more)
         * Ivy Engine made the default compiler (results in smaller bundle sizes than previous versions)
         * ModuleWithProviders Support
-        * Changes with Angular Forms (<ngForm> replaced with <ng-form>
+        * Changes with Angular Forms (<ngForm> replaced with <ng-form>)
         * New scopes added to dependency injection system
-        * [Good resource](https://blog.angular.io/version-9-of-angular-now-available-project-ivy-has-arrived-23c97b63cfa3)
 
 * Angular 10
     * Introduced in June 2020
-    * new features (not all inclusive)
+    * new features (not all inclusive - see [this](https://blog.angular.io/version-10-of-angular-now-available-78960babd41) for more)
         * Optional Strict(er) Mode
         * Support for TypeScript 3.9 (support for 4.0 added in 10.1)
         * TSlib, the runtime library for TypeScript containing helper functions, updated to Tslib 2.0
+        
+* Angular 11
+    * Introduced in November 2020
+    * new features (not all inclusive - see [this](https://blog.angular.io/version-11-of-angular-now-available-74721b7952f7) for more)
+        * Automatic Inlining of Fonts
+        * Component Test Harnesses
+        * Improved Reporting and Logging
+        * Updated Language Service Preview
+        * Updated Hot Module Replacement (HMR) Support
 
 
 ## Why no Angular 3?
@@ -242,3 +250,10 @@ Angular consists of a few different libraries that are distributed as separate p
             @angular/router     v3.3.0
 
 Notice that the NG router package's version was out of sync with the other nG packages. In order to get all of the packages back in sync, the NG development team decided to skip an Angular 3 release, and go straight to Angular 4. Although technically, the version number was officially dropped from the name to help emphasize that there are only two version of Angular: AngularJS and Angular. The latter being all versions of Angular from v2 and beyond.
+
+
+---
+
+# Resource(s)
+
+[Official Angular Documentation: Releases](https://angular.io/guide/releases)
